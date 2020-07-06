@@ -1,0 +1,49 @@
+.App {
+  width: 100% !important;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #282c34;
+  max-width: 100%; }
+  .App .App-header {
+    width: 100%;
+    margin: 0 auto; }
+    .App .App-header .header-content {
+      display: flex;
+      margin: 0 auto; }
+      .App .App-header .header-content img {
+        margin-right: 1rem; }
+      .App .App-header .header-content input {
+        outline: none;
+        padding: 0.4rem 1rem;
+        border-radius: 25px;
+        border: none;
+        font-size: 1.4rem;
+        color: #282c34; }
+  .App .list-todo {
+    padding: 1rem 0; }
+    .App .list-todo .TodoItem {
+      width: 350px;
+      color: #FFF;
+      margin: 0.2rem auto;
+      padding: 0.5rem;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.9s;
+      text-align: left !important;
+      position: relative; }
+      .App .list-todo .TodoItem img {
+        margin-right: 0.2rem;
+        color: #FFF !important; }
+      .App .list-todo .TodoItem span {
+        position: absolute;
+        top: 11px; }
+      .App .list-todo .TodoItem--complete {
+        background: #4cd137;
+        color: #FFF;
+        opacity: 0.3; }
+        .App .list-todo .TodoItem--complete span {
+          text-decoration: line-through; }
+
+/*# sourceMappingURL=TodoItem.css.map */

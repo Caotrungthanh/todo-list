@@ -1,0 +1,71 @@
+.App
+{
+    width: 100% !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #282c34;
+    max-width: 100%;
+    .App-header
+    {
+        width: 100%;
+        margin: 0 auto;
+        .header-content
+        {
+            display: flex;
+            margin: 0 auto;
+            img
+            {
+                margin-right: 1rem;
+            }
+            input
+            {
+                outline: none;
+                padding: 0.4rem 1rem;
+                border-radius: 25px;
+                border: none;
+                font-size: 1.4rem;
+                color: #282c34;
+            }
+        }
+    }
+    .list-todo
+    {
+        padding: 1rem 0;
+        .TodoItem
+        {
+            width: 350px;
+            // background: #FFF;
+            color: #FFF;
+            margin: 0.2rem auto;
+            padding: 0.5rem;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.9s;
+            text-align: left !important;
+            position: relative;
+            img
+            {
+                margin-right: 0.2rem;
+                color: #FFF !important;
+            }
+            span
+            {
+                position: absolute;
+                top: 11px;
+            }
+            &--complete
+            {
+
+                background: #4cd137;
+                color: #FFF;
+                opacity: 0.3;
+                span
+                {
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}
